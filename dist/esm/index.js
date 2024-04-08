@@ -1,2 +1,2 @@
-import r from"react";var e=function(e){var t=e.children;return r.createElement("button",{style:{background:"red"}},t)};export{e as Button};
+import e from"react";var r=function(r){var t=r.label;return e.createElement("button",{style:{background:"yellow"}},t)};export{r as Button};
 //# sourceMappingURL=index.js.map

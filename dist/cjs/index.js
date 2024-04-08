@@ -1,2 +1,2 @@
-"use strict";var e=require("react");exports.Button=function(r){var t=r.children;return e.createElement("button",{style:{background:"red"}},t)};
+"use strict";var e=require("react");exports.Button=function(t){var r=t.label;return e.createElement("button",{style:{background:"yellow"}},r)};
 //# sourceMappingURL=index.js.map

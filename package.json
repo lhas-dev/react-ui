@@ -20,24 +20,29 @@
     "@storybook/react-vite": "^8.0.6",
     "@storybook/test": "^8.0.6",
     "@types/react": "^18.2.74",
+    "chokidar": "^3.6.0",
     "postcss": "^8.4.38",
     "react": "^18.2.0",
     "rollup": "^4.14.1",
+    "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "storybook": "^8.0.6",
     "tslib": "^2.6.2",
     "typescript": "^5.4.4",
-    "rollup-plugin-dts": "^6.1.0",
     "vite": "^5.2.8"
   },
   "peerDependencies": {
     "react": "^18.2.0"
   },
   "scripts": {
+    "dev": "chokidar src/**/* -c 'yarn build'",
     "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "chokidar-cli": "^3.0.0"
   }
 }

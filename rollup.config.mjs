@@ -34,11 +34,22 @@ export default [
       postcss(),
       terser(),
     ],
+    watch: {
+      buildDelay: 500,
+      chokidar: {
+        usePolling: true,
+      },
+    },
   },
   {
     input: "dist/esm/types/index.d.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
     external: [/\.css$/],
     plugins: [dts()],
+    watch: {
+      chokidar: {
+        usePolling: true,
+      },
+    },
   },
 ];
