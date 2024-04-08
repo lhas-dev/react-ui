@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sources":["../../src/components/Button/Button.tsx"],"sourcesContent":[null],"names":["Button","_a","children","React","createElement","style","background"],"mappings":"qBAEM,IAAAA,EAAS,SAACC,GAAE,IAAAC,EAAQD,EAAAC,SACxB,OAAOC,EAAAC,cAAA,SAAA,CAAQC,MAAO,CAAEC,WAAY,QAAUJ,EAChD"}
