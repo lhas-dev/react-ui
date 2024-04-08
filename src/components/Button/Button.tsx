@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
-const Button = ({ children }: any) => {
-  return <button style={{ background: "red" }}>{children}</button>;
+const Button = ({ label }: any) => {
+  return <button style={{ background: "red" }}>{label}</button>;
 };
 
 export default Button;

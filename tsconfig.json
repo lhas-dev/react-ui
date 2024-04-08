@@ -15,5 +15,5 @@
     "declarationDir": "types",
     "emitDeclarationOnly": true,
   },
-  "exclude": ["**/*.stories.ts"]
+  "exclude": ["**/stories", "**/*.stories.ts"]
 }
